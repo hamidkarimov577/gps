@@ -14,7 +14,7 @@
             justify-content: space-between;
   }
   header .image {
-    width: 100px;
+    width: 25%;
     height: 400px;
   }
   header .container nav img {
@@ -73,11 +73,12 @@
             align-items: center;
     text-align: center;
     font-weight: 700;
-    padding-top: 70px;
+    padding-top: 55px;
     color: #000000;
+    width: 100%;
   }
   #about .container .content img {
-    padding-top: 86px;
+    padding-top: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +111,7 @@
             align-items: center;
   }
   .form .container .content .input-box .box {
-    width: 85%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -162,6 +163,82 @@
   }
   .footer .container .content img {
     width: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  header .container .content p {
+    font-size: 17px;
+    width: 80%;
+  }
+  header .container .content img {
+    width: 80%;
+  }
+  header .container .btn {
+    font-size: 17px;
+    width: 60%;
+  }
+  #about {
+    height: 100%;
+  }
+  #about .container .content .content-title h4 {
+    padding-top: 40px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .form .container .content p {
+    font-size: 17px;
+  }
+  .form .container .content .btn {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  header .container .btn {
+    width: 70%;
+  }
+  #about .container .content .content-title h4 {
+    padding-top: 20px;
+    font-size: 17px;
+    width: 100%;
+  }
+  #about .container .content img {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 360px) {
+  header .container .content p {
+    font-size: 15px;
+    width: 80%;
+  }
+  header .container .content img {
+    width: 80%;
+  }
+  header .container .btn {
+    font-size: 15px;
+    width: 80%;
+  }
+  #about .container .content p {
+    font-size: 15px;
+  }
+  #about .container .content .content-title h4 {
+    padding-top: 15px;
+    font-size: 15px;
+    width: 100%;
+  }
+  #about .container .content img {
+    padding-top: 10%;
+  }
+  .form .container .content .input-box .box label {
+    font-size: 15px;
+  }
+  .form .container .content p {
+    font-size: 15px;
+  }
+  .form .container .content .btn {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
